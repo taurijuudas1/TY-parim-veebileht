@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cardo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel = "icon" href = 
+"https://fontmeme.com/permalink/211121/755e7c6ebf6201435f81ad8442ef07a7.png" 
+        type = "image/x-icon">
+  
+<style>
+@font-face {
+  font-family: 'Oswald', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+}
+
+div {
+  font-family: 'Oswald', sans-serif;
+  text-align:justify
+}
+
+body {
+  background-color: #1c1b1b;
+}
+
+.box {
+   display: flex;
+   align-items:center;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+  height: 50px;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+
+.center {
+  position: absolute;
+  left: 50%;
+  top: 6%;
+  transform: translate(-50%, -50%);
+
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  color: white;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 60px;
+  left: 50%;
+  top: 50%;
+  
+}
+
+.vertical-center {
+  margin: 0px -10px;
+  position: absolute;
+  top: 0%;
+
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: white;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.header {
+    position: absolute;
+    top: 150px;    
+    left: 100px;
+    font-size: 20px;
+}
+
+.allmenu {
+    position: absolute;
+    bottom: 50%;    
+    left: 33%;
+
+}
+.allmenu2 {
+    position: absolute;
+    bottom: 50%;    
+    left: 66%;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+</style>
+</head>
+<body>
+<div class="header">
+<h1>MUU</h1>
+</div>
+<div class="center">
+    <a href="cardo_main.html"><img src="https://fontmeme.com/permalink/211121/b5303f330063dac52588684936751033.png" alt="armed-lightning-font" width="220" height="45" border="0"></a>
+    </div>
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="cardo_main.html">Avaleht</a>
+      <a href="cardo_minust.html">Minust</a>
+      <a href="cardo_kontakt.html">Kontakt</a>
+      <a href="cardo_muu.html">Muu</a>
+    </div>
+    
+    <span style="font-size:55px;cursor:pointer;color: white" onclick="openNav()">&#9776;</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+    }
+    </script>
+
+<div class="text">
+<p>Ma ei viitsi enam</p>
+</div>
+
+<div class="navbar">
+    <p style="color :white; font-size: 15px; margin-left: 1590px;">@2021 Cardo Kenten Ross. All rights reserved.</p>
+</div>
+
+</script>
+</body>
+</html>
