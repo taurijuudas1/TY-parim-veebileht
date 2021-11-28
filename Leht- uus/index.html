@@ -5,8 +5,9 @@
     <title>Raidi leht</title>
     <link rel='shortcut icon' href="VärviskeemjaLogo/Meielogo.png">
     <link rel="stylesheet" type="text/css" href="Rait/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet"> -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa00T92X01BISZ+ywDWZCvqsWgccV3gFoRBv@z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -34,14 +35,14 @@
 				<h2>Minu kohta</h2>
 				<h5>Tudeng & <span class ="type"></span></h5>
 				<p>Õpin Tartu Ülikoolis informaatikat ja vabal ajal meeldib mulle autodega tegeleda. Lemmik aastaajaks on talv, sest siis on bemmiga driftides rehvikulu väiksem #savetheturtles. Lemmik ütlus on "Tagavedu kindel edu!"</p>
-				<script src="typed.js-master/lib/typed.js"></script>
+				<script src="typed.js-master/lib/typed.js"></script>- <!-- Script tag on javascripti jaoks tag. Kasutan typed.js scripti, mille leidsin githubist.  -->
 				<script>
-					var typed = new Typed('.type', {
-  strings: ["Sahkerdaja", "Spetsialist", "Tipsutaja"],
-  typeSpeed: 25,
-  backSpeed:15,
-  smartBackspace:true,
-  loop:true
+					var typed = new Typed('.type', { /* var ehk variable ehk muutuja. .type nagu klass hiljem valja kutsumiseks. */
+  strings: ["Sahkerdaja", "Spetsialist", "Tipsutaja"], /* Sõnad või laused, mida script kirjutab */
+  typeSpeed: 25, /* Kirjutamiskiirus */
+  backSpeed:15, /* Peale sõna või lause lõpetamist kustutamiskiirus */
+  smartBackspace:true, /* Vahepeal suvaliselt kustutab, et omistada sellele inimlikkus */
+  loop:true /* Selleks, et see kestma jääks */
 
 });
 				</script>
