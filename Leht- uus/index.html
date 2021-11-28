@@ -34,14 +34,14 @@
 				<h2>Minu kohta</h2>
 				<h5>Tudeng & <span class ="type"></span></h5>
 				<p>Õpin Tartu Ülikoolis informaatikat ja vabal ajal meeldib mulle autodega tegeleda. Lemmik aastaajaks on talv, sest siis on bemmiga driftides rehvikulu väiksem #savetheturtles. Lemmik ütlus on "Tagavedu kindel edu!"</p>
-				<script src="typed.js-master/lib/typed.js"></script>
+				<script src="typed.js-master/lib/typed.js"></script> <!-- Script tag on javascripti jaoks tag. Kasutan typed.js scripti, mille leidsin githubist.  -->
 				<script>
-					var typed = new Typed('.type', {
-  strings: ["Sahkerdaja", "Spetsialist", "Tipsutaja"],
-  typeSpeed: 25,
-  backSpeed:15,
-  smartBackspace:true,
-  loop:true
+					var typed = new Typed('.type', { /* var ehk variable ehk muutuja. .type nagu klass hiljem valja kutsumiseks. */
+  strings: ["Sahkerdaja", "Spetsialist", "Tipsutaja"], /* Sõnad või laused, mida script kirjutab */
+  typeSpeed: 25, /* Kirjutamiskiirus */
+  backSpeed:15, /* Peale sõna või lause lõpetamist kustutamiskiirus */
+  smartBackspace:true, /* Vahepeal suvaliselt kustutab, et omistada sellele inimlikkus */
+  loop:true /* Selleks, et see kestma jääks */
 
 });
 				</script>
