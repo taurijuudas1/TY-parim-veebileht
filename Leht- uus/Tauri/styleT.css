@@ -16,7 +16,7 @@ html::-webkit-scrollbar-track{
 .hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(TaustTK.JPG);
+	background-image: url(TaustTK.jpg);
 	background-size: cover;
 	background-position: center;
 }
